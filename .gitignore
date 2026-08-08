@@ -1,0 +1,26 @@
+
+*.o
+*.a
+obj/mame/cpu/m68000/m68kopac.c
+obj/mame/cpu/m68000/m68kopdm.c
+obj/mame/cpu/m68000/m68kopnz.c
+obj/mame/cpu/m68000/m68kops.c
+obj/mame/cpu/m68000/m68kops.h
+exefs/main
+*.elf
+*.nacp
+*.nro
+*.nso
+*.pfs0
+
+# Local workspace metadata and private development notes
+.DS_Store
+.claude/
+.codex/
+.remember/
+.repowise/
+.vscode/
+.mcp.json
+AGENTS.md
+graphify-out/
+docs/OFFLINE_LLM_UI_ARTWORK_RUNBOOK.md
