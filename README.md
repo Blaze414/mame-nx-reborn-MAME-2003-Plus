@@ -347,7 +347,7 @@ The lowercase `icon.jpg` filename is intentional. Linux containers are case-sens
 
 The following timeline records the Aug 3–8 porting sprint. Counts describe that integration snapshot and are retained because they explain the scale and order of the work.
 
-### Phase 1 — Core swap (Aug 3–4)
+### Phase 1 — Core swap 
 
 **Implemented**
 
@@ -377,7 +377,7 @@ The original port's core was too old for the intended game coverage, but simply 
 
 A clean standalone NRO linked with 99.2% of the target driver table represented. The remaining 0.8% was isolated instead of being allowed to destabilize the whole port.
 
-### Phase 2 — Stabilisation (Aug 4–5)
+### Phase 2 — Stabilisation 
 
 **Implemented**
 
@@ -402,7 +402,7 @@ Producing an NRO proved only that the port linked. The next risk was unsafe beha
 
 The port moved from linkable to launchable, with safer memory decisions, stable presentation, and a recoverable audio lifecycle.
 
-### Phase 3 — Frontend (Aug 6)
+### Phase 3 — Frontend 
 
 **Implemented**
 
@@ -426,7 +426,7 @@ The original browser could launch games but could not communicate compatibility,
 
 The Switch application gained a coherent launcher and settings surface rather than acting as a thin ROM picker around a legacy core.
 
-### Phase 4 — Input and pause parity (Aug 6–7)
+### Phase 4 — Input and pause parity 
 
 **Implemented**
 
@@ -451,7 +451,7 @@ Nintendo users expect A to confirm and B to cancel. Upstream MAME bound UI meani
 
 Frontend and emulator controls follow one Nintendo-style convention, while common MAME functions are available without rendering MAME's legacy menu.
 
-### Phase 5 — Motion and material (Aug 7)
+### Phase 5 — Motion and material 
 
 **Implemented**
 
@@ -476,7 +476,7 @@ Motion needed to explain focus and hierarchy, not decorate every action. A share
 
 The interface gained one consistent visual grammar with bounded animation and accessibility fallbacks. Later refinement made Pearl the default while retaining Midnight.
 
-### Phase 6 — Save states (Aug 7–8)
+### Phase 6 — Save states 
 
 **Implemented**
 
@@ -502,7 +502,7 @@ The core had a serialization engine, but availability was only as strong as ever
 
 Save-state support became explicit and diagnosable, including roughly 123 TMS34010-family games across 11 drivers that had been blocked by the early shift-register registration.
 
-### Phase 7 — Latency and audio (Aug 7–8)
+### Phase 7 — Latency and audio 
 
 **Implemented**
 
@@ -524,7 +524,7 @@ Intermittent crackle and unreliable simultaneous presses were timing symptoms, n
 
 Audio buffers return to the queue correctly, chorded input is coherent within a frame, and users can trade latency for crackle resistance.
 
-### Phase 8 — Housekeeping (Aug 8)
+### Phase 8 — Housekeeping 
 
 **Implemented**
 
