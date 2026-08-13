@@ -345,7 +345,7 @@ The lowercase `icon.jpg` filename is intentional. Linux containers are case-sens
 
 ## Development timeline, rationale, and challenges
 
-The following timeline records the Jul 3– Aug 8 porting sprint. Counts describe that integration snapshot and are retained because they explain the scale and order of the work.
+The following timeline records the Jul 3 – Aug 8 porting sprint. Counts describe that integration snapshot and are retained because they explain the scale and order of the work.
 
 ### Phase 1 — Core swap 
 
