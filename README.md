@@ -626,7 +626,7 @@ Keep platform policy in `src/nx/` where possible. Changes to shared MAME code sh
 ## Credits and lineage
 
 - **Blaze414** — MAME NX Reborn integration, Switch frontend, OSD work, and current maintenance.
-- **MVG / lantus mame-nx** — original Nintendo Switch mame-nx foundation.
+- **[MVG / lantus/mame-nx](https://github.com/lantus/mame-nx)** — original Nintendo Switch mame-nx foundation.
 - **MAME2003-Plus contributors** — MAME 0.78-derived core and expanded driver work.
 - **MAME contributors** — original emulation cores, drivers, devices, and supporting tools.
 - **devkitPro and libnx contributors** — Nintendo Switch homebrew toolchain and platform APIs.
